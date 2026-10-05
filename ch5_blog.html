@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>블로그 레이아웃 구성</title>
+    <style>
+        .menu_title {color: red;}
+        .river {color: red;}
+    </style>
+</head>
+<body>
+    <div id="soccer">
+        <header id="main_header">
+            <h1 class="title">축구 블로그</h1>
+        </header>
+        <nav id="main_navigation">
+            <div class="pull_left">
+                <ul>
+                    <li>
+                        <span class="menu_title">EPL</span>
+                            <ul class="inner_menu">
+                                <li><a href="#">맨시티</a></li>
+                                <li><a href="#">맨유</a></li>
+                            </ul>
+                    </li>
+                    <li>
+                        <span class="menu_title">Laliga</span>
+                            <ul class="inner_menu">
+                                <li><a href="#">레알 마드리드</a></li>
+                                <li><a href="#">바르셀로나</a></li>
+                            </ul>
+                    </li>
+                </ul>
+            </div>
+            <div class="pull_right">
+                <form>
+                    <input type="text">
+                    <input type="submit" value="검색">
+                </form>
+            </div>
+        </nav>
+        <div>
+            <section>
+                <article>
+                    <div class="article_header">
+                        <h1 class="article_title">맨시티</h1>
+                    </div>
+                    <div class="article=body">
+                        <img src="https://i.namu.wiki/i/xBUXThonpRQkba4--cGCyYVUy_-mhG5NSHGg61oom2cZmvyF2QPdjqAgSA1zUmTMamiclaibSaq0UbYvvwAUSANPis1swvI5-gjeO1_7lcxMLMtwIsQOjncKhUbTDZXggri1INzqiSnUflI64eKMgw.svg" alt="맨시티 로고" width="300">
+                        <p>맨시티 로고</p>
+                        <p class="river">라이벌:맨유</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="article_header">
+                        <h1 class="article_title">맨유</h1>
+                    </div>
+                    <div class="article=body">
+                        <img src="https://i.namu.wiki/i/ukmmiDRtT-Yd9b1vGGdpoFdOUHZlZQbD1DUb7hcuVhMN5wMjsPrWO7GWb8jllGqaiDCktJqJhiegBs0BmIZIqSZW182ByESGElSxbX0aJZHAF2zp-ZCHMb0dXuG0Q13DS_8u9o5HZ0nqIWbRqZ0Xlw.svg" alt="맨유 로고" width="300">
+                        <p>맨유 로고</p>
+                        <p class="river">라이벌:맨시티</p>
+                    </div>
+                </article>
+            </section>
+            <aside>
+                <div class="aside_list">
+                    <h3>EPL</h3>
+                    <ul>
+                        <li><a href="#">아스날</a></li>
+                        <li><a href="#">맨시티</a></li>
+                        <li><a href="#">리버풀</a></li>
+                        <li><a href="#">첼시</a></li>
+                        <li><a href="#">토트넘</a></li>
+                        <li><a href="#">맨유</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>각리그 최근 우승팀</h3>
+                    <ul>
+                        <li><a href="#">아스날</a></li>
+                        <li><a href="#">파리</a></li>
+                        <li><a href="#">뮌헨</a></li>
+                        <li><a href="#">바르셀로나</a></li>
+                        <li><a href="#">인터밀란</a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+        <footer>
+            <a href="#">EPL team</a>
+        </footer>
+    </div>
+</body>
+</html>
